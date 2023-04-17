@@ -15,3 +15,8 @@ sudo mount --bind /home/$(whoami)/.local/share/plasma/plasmoids/poe.ai-widget .
 And preview it:
 plasmawindowed poe.ai-widget
 
+# Screenshot
+
+![Alt text](screenshot.png "")
+
+
