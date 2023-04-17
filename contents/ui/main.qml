@@ -22,6 +22,12 @@ Item {
             id: webview
             url: "https://poe.com/"
             anchors.fill: parent
+
+            onLoadingChanged: function (loadRequest) {
+                if (loadRequest.status === 2) {
+                    runJavaScript("window.document.styleSheets[0].insertRule('* { transform: scale(0.99); }', 0);")
+                }
+            }
         }
     }
 }
