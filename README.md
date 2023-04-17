@@ -20,7 +20,7 @@ Trick plasma into thinking this plasmoid is already installed (if already instal
 
 mkdir -p /home/$(whoami)/.local/share/plasma/plasmoids/poe.ai-widget
 
-sudo mount --bind /home/$(whoami)/.local/share/plasma/plasmoids/poe.ai-widget .
+sudo mount --bind . /home/$(whoami)/.local/share/plasma/plasmoids/poe.ai-widget
 
 And preview it:
 
