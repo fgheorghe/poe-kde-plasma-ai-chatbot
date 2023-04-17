@@ -1,0 +1,18 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Email": "fgheorghe@grosan.co.uk",
+        "Name": "Grosan Flaviu Gheorghe"
+      }
+    ],
+    "Name": "Poe AI ChatBot",
+    "Description": "A desktop AI chat bot pointing to poe.com.",
+    "License": "BSD-3-Clause",
+    "Id": "poe.ai-widget"
+  },
+  "Keywords": "ai chatbot",
+  "X-Plasma-API": "declarativeappletscript",
+  "X-Plasma-MainScript": "ui/main.qml"
+}
