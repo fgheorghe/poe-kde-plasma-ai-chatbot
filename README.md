@@ -4,7 +4,7 @@ A basic KDE5 Plasma widget that loads https://poe.com/ and provides a desktop ai
 
 Download release/poe.ai-widget.plasmoid and install the widget in KDE5.
 
-Optionally, change main.qml to point to the URL of your own bot.
+Optionally, change contents/ui/main.qml and rebuild using ./create-release.sh to point to the URL of your own poe bot or a different webpage.
 
 To change font sizes, please use branch ```experiments/reduce-screen-size```, edit contents/ui/main.qml to suit your needs:
 
